@@ -7,5 +7,8 @@ public abstract class TextDecorateur implements Text{
         this.text = text;
     }
 
-    
+    @Override
+    public String transform(String input){
+        return text.transform(input);
+    }
 }
